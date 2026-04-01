@@ -17,10 +17,9 @@ import androidx.compose.ui.graphics.*
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.*
-import com.streakcard.data.model.CardShape
-import com.streakcard.data.model.CardSize
-import com.streakcard.domain.model.Goal
-import com.streakcard.domain.model.StreakStatus
+import com.example.streakcard.data.model.CardShape
+import com.example.streakcard.data.model.CardSize
+import com.example.streakcard.domain.model.Goal
 import com.streakcard.ui.theme.cardGradients
 import kotlin.math.*
 

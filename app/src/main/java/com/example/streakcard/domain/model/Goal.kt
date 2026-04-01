@@ -1,12 +1,9 @@
 package com.example.streakcard.domain.model
 
-
-package com.streakcard.domain.model
-
-import com.streakcard.data.model.CardColorScheme
-import com.streakcard.data.model.CardShape
-import com.streakcard.data.model.CardSize
-import com.streakcard.data.model.MissPolicy
+import com.example.streakcard.data.model.CardColorScheme
+import com.example.streakcard.data.model.CardShape
+import com.example.streakcard.data.model.CardSize
+import com.example.streakcard.data.model.MissPolicy
 import java.time.LocalDate
 
 data class Goal(

@@ -2,10 +2,10 @@ package com.example.streakcard.di
 
 
 import android.content.Context
-import com.streakcard.data.local.AppDatabase
-import com.streakcard.data.local.GoalDao
-import com.streakcard.data.repository.GoalRepository
-import com.streakcard.data.repository.GoalRepositoryImpl
+import com.example.streakcard.data.local.AppDatabase
+import com.example.streakcard.data.local.GoalDao
+import com.example.streakcard.data.repository.GoalRepository
+import com.example.streakcard.data.repository.GoalRepositoryImpl
 import dagger.Binds
 import dagger.Module
 import dagger.Provides

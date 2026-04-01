@@ -1,9 +1,7 @@
 package com.example.streakcard.data.repository
 
 
-package com.streakcard.data.repository
-
-import com.streakcard.domain.model.Goal
+import com.example.streakcard.domain.model.Goal
 import kotlinx.coroutines.flow.Flow
 
 interface GoalRepository {

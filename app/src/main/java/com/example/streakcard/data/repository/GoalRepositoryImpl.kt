@@ -1,12 +1,10 @@
 package com.example.streakcard.data.repository
 
 
-package com.streakcard.data.repository
-
-import com.streakcard.data.local.GoalDao
-import com.streakcard.domain.mapper.toDomain
-import com.streakcard.domain.mapper.toEntity
-import com.streakcard.domain.model.Goal
+import com.example.streakcard.data.local.GoalDao
+import com.example.streakcard.domain.mapper.toDomain
+import com.example.streakcard.domain.mapper.toEntity
+import com.example.streakcard.domain.model.Goal
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map

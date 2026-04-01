@@ -1,7 +1,6 @@
 package com.example.streakcard.data.model
 
 
-package com.streakcard.data.model
 
 enum class CardColorScheme {
     OCEAN, SUNSET, FOREST, AURORA, VOLCANIC, COSMIC, ROSE, MIDNIGHT, GOLDEN, CANDY

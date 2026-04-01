@@ -1,14 +1,11 @@
 package com.example.streakcard.ui.theme.screens.addgoal
 
 
-package com.streakcard.ui.screens.addgoal
-
 import androidx.compose.animation.*
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.*
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
@@ -21,13 +18,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.*
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.streakcard.data.model.CardColorScheme
-import com.streakcard.data.model.CardShape
-import com.streakcard.data.model.CardSize
-import com.streakcard.data.model.MissPolicy
-import com.streakcard.domain.model.Goal
-import com.streakcard.ui.components.GoalCard
-import com.streakcard.ui.theme.cardGradients
+import com.example.streakcard.data.model.CardColorScheme
+import com.example.streakcard.data.model.CardShape
+import com.example.streakcard.data.model.CardSize
+import com.example.streakcard.data.model.MissPolicy
+import com.example.streakcard.domain.model.Goal
+import com.example.streakcard.ui.theme.component.GoalCard
+import com.example.streakcard.ui.theme.cardGradients
 import java.time.LocalDate
 
 // Popular emoji suggestions for goals

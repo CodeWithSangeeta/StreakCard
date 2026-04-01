@@ -1,8 +1,6 @@
 package com.example.streakcard.ui.theme.screens.home
 
 
-package com.streakcard.ui.screens.home
-
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.streakcard.domain.model.Goal

@@ -1,10 +1,8 @@
 package com.example.streakcard.domain.usecase
 
 
-package com.streakcard.domain.usecase
-
-import com.streakcard.data.repository.GoalRepository
-import com.streakcard.domain.model.Goal
+import com.example.streakcard.data.repository.GoalRepository
+import com.example.streakcard.domain.model.Goal
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

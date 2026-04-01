@@ -1,16 +1,14 @@
 package com.example.streakcard.ui.theme.screens.addgoal
 
 
-package com.streakcard.ui.screens.addgoal
-
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.streakcard.data.model.CardColorScheme
-import com.streakcard.data.model.CardShape
-import com.streakcard.data.model.CardSize
-import com.streakcard.data.model.MissPolicy
-import com.streakcard.domain.model.Goal
-import com.streakcard.domain.usecase.AddGoalUseCase
+import com.example.streakcard.data.model.CardColorScheme
+import com.example.streakcard.data.model.CardShape
+import com.example.streakcard.data.model.CardSize
+import com.example.streakcard.data.model.MissPolicy
+import com.example.streakcard.domain.model.Goal
+import com.example.streakcard.domain.usecase.AddGoalUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

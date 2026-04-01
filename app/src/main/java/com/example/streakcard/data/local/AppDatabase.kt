@@ -1,6 +1,5 @@
 package com.example.streakcard.data.local
 
-package com.streakcard.data.local
 
 import android.content.Context
 import androidx.room.Database
@@ -8,10 +7,10 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverter
 import androidx.room.TypeConverters
-import com.streakcard.data.model.CardColorScheme
-import com.streakcard.data.model.CardShape
-import com.streakcard.data.model.CardSize
-import com.streakcard.data.model.MissPolicy
+import com.example.streakcard.data.model.CardColorScheme
+import com.example.streakcard.data.model.CardShape
+import com.example.streakcard.data.model.CardSize
+import com.example.streakcard.data.model.MissPolicy
 
 class Converters {
     @TypeConverter fun fromColorScheme(v: CardColorScheme): String = v.name

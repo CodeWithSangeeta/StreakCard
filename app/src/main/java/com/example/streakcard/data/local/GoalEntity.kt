@@ -1,14 +1,12 @@
 package com.example.streakcard.data.local
 
 
-package com.streakcard.data.local
-
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.streakcard.data.model.CardColorScheme
-import com.streakcard.data.model.CardShape
-import com.streakcard.data.model.CardSize
-import com.streakcard.data.model.MissPolicy
+import com.example.streakcard.data.model.CardColorScheme
+import com.example.streakcard.data.model.CardShape
+import com.example.streakcard.data.model.CardSize
+import com.example.streakcard.data.model.MissPolicy
 
 @Entity(tableName = "goals")
 data class GoalEntity(

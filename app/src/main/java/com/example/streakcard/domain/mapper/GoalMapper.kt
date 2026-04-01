@@ -1,10 +1,7 @@
 package com.example.streakcard.domain.mapper
 
-
-package com.streakcard.domain.mapper
-
-import com.streakcard.data.local.GoalEntity
-import com.streakcard.domain.model.Goal
+import com.example.streakcard.data.local.GoalEntity
+import com.example.streakcard.domain.model.Goal
 import java.time.LocalDate
 
 fun GoalEntity.toDomain(): Goal = Goal(

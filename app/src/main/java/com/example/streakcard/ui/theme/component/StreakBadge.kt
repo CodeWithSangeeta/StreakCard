@@ -1,7 +1,6 @@
 package com.example.streakcard.ui.theme.component
 
 
-
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
@@ -17,7 +16,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.streakcard.domain.model.StreakStatus
+import com.example.streakcard.domain.model.StreakStatus
 
 /**
  * Reusable streak badge showing fire emoji + count with pulsing animation.

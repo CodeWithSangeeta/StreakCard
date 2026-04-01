@@ -1,8 +1,6 @@
 package com.example.streakcard.data.local
 
 
-package com.streakcard.data.local
-
 import androidx.room.*
 import kotlinx.coroutines.flow.Flow
 

@@ -1,9 +1,7 @@
 package com.example.streakcard.domain.usecase
 
+import com.example.streakcard.data.repository.GoalRepository
 
-package com.streakcard.domain.usecase
-
-import com.streakcard.data.repository.GoalRepository
 import javax.inject.Inject
 
 class DeleteGoalUseCase @Inject constructor(private val repository: GoalRepository) {
