@@ -1,15 +1,12 @@
-package com.example.streakcard.ui.theme.navigation
+package com.example.streakcard.uii.navigation
 
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.*
 import androidx.navigation.compose.*
-import com.example.streakcard.ui.theme.screens.addgoal.AddGoalScreen
-import com.example.streakcard.ui.theme.screens.detail.GoalDetailScreen
-import com.example.streakcard.ui.theme.screens.home.HomeScreen
-import com.streakcard.ui.screens.addgoal.AddGoalScreen
-import com.streakcard.ui.screens.detail.GoalDetailScreen
-import com.streakcard.ui.screens.home.HomeScreen
+import com.example.streakcard.uii.screens.addgoal.AddGoalScreen
+import com.example.streakcard.uii.screens.detail.GoalDetailScreen
+import com.example.streakcard.uii.screens.home.HomeScreen
 
 sealed class Screen(val route: String) {
     object Home       : Screen("home")

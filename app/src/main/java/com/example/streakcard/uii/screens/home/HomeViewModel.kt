@@ -1,10 +1,10 @@
-package com.example.streakcard.ui.theme.screens.home
+package com.example.streakcard.uii.screens.home
 
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.streakcard.domain.model.Goal
-import com.streakcard.domain.usecase.*
+import com.example.streakcard.domain.model.Goal
+import com.example.streakcard.domain.usecase.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch

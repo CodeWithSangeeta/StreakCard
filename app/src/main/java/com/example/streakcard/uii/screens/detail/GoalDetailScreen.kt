@@ -1,7 +1,7 @@
-package com.example.streakcard.ui.theme.screens.detail
+package com.example.streakcard.uii.screens.detail
 
 
-import androidx.compose.animation.AnimatedVisibility
+
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -18,12 +18,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.*
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.streakcard.domain.model.Goal
-import com.streakcard.domain.model.StreakStatus
-import com.streakcard.ui.components.GoalCard
-import com.streakcard.ui.theme.cardGradients
+import com.example.streakcard.domain.model.Goal
+import com.example.streakcard.domain.model.StreakStatus
+import com.example.streakcard.uii.component.GoalCard
 import java.time.LocalDate
 import java.time.temporal.ChronoUnit
+import kotlin.collections.get
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -6,8 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.core.view.WindowCompat
 import androidx.navigation.compose.rememberNavController
-import com.example.streakcard.ui.theme.StreakCardTheme
-import com.example.streakcard.ui.theme.navigation.StreakCardNavGraph
+import com.example.streakcard.uii.theme.StreakCardTheme
+import com.example.streakcard.uii.navigation.StreakCardNavGraph
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

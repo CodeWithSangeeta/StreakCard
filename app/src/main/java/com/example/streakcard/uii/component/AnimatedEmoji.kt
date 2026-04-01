@@ -1,4 +1,4 @@
-package com.example.streakcard.ui.theme.component
+package com.example.streakcard.ui.component
 
 
 import androidx.compose.animation.core.*

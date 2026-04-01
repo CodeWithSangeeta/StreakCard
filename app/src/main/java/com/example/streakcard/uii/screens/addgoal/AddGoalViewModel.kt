@@ -1,4 +1,4 @@
-package com.example.streakcard.ui.theme.screens.addgoal
+package com.example.streakcard.uii.screens.addgoal
 
 
 import androidx.lifecycle.ViewModel

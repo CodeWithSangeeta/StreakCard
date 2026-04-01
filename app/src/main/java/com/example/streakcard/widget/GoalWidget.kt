@@ -23,18 +23,20 @@ import androidx.glance.text.FontWeight
 import androidx.glance.text.Text
 import androidx.glance.text.TextStyle
 import androidx.glance.unit.ColorProvider
-import androidx.glance.layout.defaultWeight
-import androidx.glance.ImageProvider
-import com.streakcard.MainActivity
-import com.streakcard.data.local.AppDatabase
-import com.streakcard.domain.mapper.toDomain
-import com.streakcard.domain.model.Goal
+import com.example.streakCard.MainActivity
+import com.example.streakCard.data.local.AppDatabase
+import com.example.streakCard.domain.mapper.toDomain
+import com.example.streakCard.domain.model.Goal
 import kotlinx.coroutines.flow.first
 import androidx.glance.layout.wrapContentWidth
 import androidx.glance.text.FontStyle
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.Dp
 import androidx.glance.layout.wrapContentSize
 import androidx.glance.unit.Dimension
+import com.example.streakcard.data.local.AppDatabase
+import com.example.streakcard.domain.mapper.toDomain
+import com.example.streakcard.domain.model.Goal
 
 class GoalWidget : GlanceAppWidget() {
 

@@ -1,4 +1,4 @@
-package com.example.streakcard.ui.theme.screens.home
+package com.example.streakcard.uii.screens.home
 
 
 import androidx.compose.animation.*
@@ -13,11 +13,12 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.*
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.*
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.streakcard.domain.model.Goal
-import com.streakcard.ui.components.GoalCard
+import com.example.streakcard.domain.model.Goal
+import com.example.streakcard.ui.components.GoalCard
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
@@ -192,7 +193,7 @@ private fun EmptyState(onAddGoal: () -> Unit) {
             "Create your first streak card and start building
                     consistency one day at a time.",
                     fontSize = 14.sp,
-            textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+            textAlign = TextAlign.Center,
             color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
         )
         Spacer(Modifier.height(32.dp))

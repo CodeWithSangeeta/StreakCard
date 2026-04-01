@@ -1,4 +1,4 @@
-package com.example.streakcard.ui.theme
+package com.example.streakcard.uii.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,14 +1,14 @@
-package com.example.streakcard.ui.theme.screens.detail
+package com.example.streakcard.uii.screens.detail
 
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.streakcard.domain.model.Goal
-import com.streakcard.domain.usecase.CheckInGoalUseCase
-import com.streakcard.domain.usecase.DeleteGoalUseCase
-import com.streakcard.domain.usecase.GetGoalByIdUseCase
-import com.streakcard.domain.usecase.UpdateGoalUseCase
+import com.example.streakcard.domain.model.Goal
+import com.example.streakcard.domain.usecase.CheckInGoalUseCase
+import com.example.streakcard.domain.usecase.DeleteGoalUseCase
+import com.example.streakcard.domain.usecase.GetGoalByIdUseCase
+import com.example.streakcard.domain.usecase.UpdateGoalUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch

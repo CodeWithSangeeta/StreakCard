@@ -1,4 +1,4 @@
-package com.example.streakcard.ui.theme.component
+package com.example.streakcard.uii.component
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.*
@@ -15,12 +15,15 @@ import androidx.compose.ui.draw.*
 import androidx.compose.ui.geometry.*
 import androidx.compose.ui.graphics.*
 import androidx.compose.ui.graphics.drawscope.DrawScope
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.*
 import com.example.streakcard.data.model.CardShape
 import com.example.streakcard.data.model.CardSize
 import com.example.streakcard.domain.model.Goal
-import com.streakcard.ui.theme.cardGradients
+import com.example.streakcard.ui.theme.cardGradients
+import kotlinx.coroutines.delay
+import kotlin.collections.get
 import kotlin.math.*
 
 // ── Card shape clip paths ────────────────────────────────────────────────────
@@ -64,7 +67,7 @@ private fun DrawScope.drawProgressArc(progress: Float, color: Color) {
         useCenter = false,
         topLeft = Offset(padding, padding),
         size = Size(size.width - padding * 2, size.height - padding * 2),
-        style = androidx.compose.ui.graphics.drawscope.Stroke(width = strokeWidth)
+        style = Stroke(width = strokeWidth)
     )
     drawArc(
         color = color,
@@ -73,7 +76,7 @@ private fun DrawScope.drawProgressArc(progress: Float, color: Color) {
         useCenter = false,
         topLeft = Offset(padding, padding),
         size = Size(size.width - padding * 2, size.height - padding * 2),
-        style = androidx.compose.ui.graphics.drawscope.Stroke(
+        style = Stroke(
             width = strokeWidth,
             cap = StrokeCap.Round
         )
@@ -259,7 +262,7 @@ fun GoalCard(
                 colors = listOf(gradient.accent, gradient.start, gradient.mid, Color.White)
             )
             LaunchedEffect(Unit) {
-                kotlinx.coroutines.delay(1800)
+                delay(1800)
                 showConfetti = false
             }
         }

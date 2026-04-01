@@ -1,4 +1,4 @@
-package com.example.streakcard.ui.theme.screens.addgoal
+package com.example.streakcard.uii.screens.addgoal
 
 
 import androidx.compose.animation.*
@@ -23,9 +23,10 @@ import com.example.streakcard.data.model.CardShape
 import com.example.streakcard.data.model.CardSize
 import com.example.streakcard.data.model.MissPolicy
 import com.example.streakcard.domain.model.Goal
-import com.example.streakcard.ui.theme.component.GoalCard
+import com.example.streakcard.uii.component.GoalCard
 import com.example.streakcard.ui.theme.cardGradients
 import java.time.LocalDate
+import kotlin.collections.get
 
 // Popular emoji suggestions for goals
 private val EMOJI_SUGGESTIONS = listOf(

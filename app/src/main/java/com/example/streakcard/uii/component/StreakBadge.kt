@@ -1,4 +1,4 @@
-package com.example.streakcard.ui.theme.component
+package com.example.streakcard.uii.component
 
 
 import androidx.compose.animation.animateColorAsState
